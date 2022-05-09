@@ -1,0 +1,85 @@
+.choice-container{
+    display: flex;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border: 0.1px solid rgb(193, 193, 247);
+    background-color: white;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: #56a5eb;
+    color: white;
+}
+
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+
+.correct{
+    background-color: #28a745;
+}
+
+.incorrect{
+    background-color: #dc3545;
+}
+
+/* hud */
+#hud{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#hudProgressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.1rem solid #56a5eb;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+#progressBarFull{
+    width: 10%;
+    height: 100%;
+    background-color: #56a5eb;
+}
+
+
+/* Loader  */
+
+#loader{
+    width: 12rem;
+    height: 12rem;
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    border-top: 1.6rem solid #56a5eb;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

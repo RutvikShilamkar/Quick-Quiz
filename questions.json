@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Inside which HTML element do we put the JavaScript?",
+        "choice1": "<script>",
+        "choice2": "<javascript>",
+        "choice3": "<js>",
+        "choice4": "<scripting>",
+        "answer": 1
+    },
+    {
+        "question": "q2",
+        "choice1": "a1",
+        "choice2": "a2",
+        "choice3": "a3",
+        "choice4": "a4",
+        "answer": 3
+    },
+    {
+        "question": "q3",
+        "choice1": "b1",
+        "choice2": "b2",
+        "choice3": "b3",
+        "choice4": "b4",
+        "answer": 4
+    }
+]
